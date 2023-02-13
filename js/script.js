@@ -153,10 +153,10 @@ allMovies.forEach((movie, index) => {
     leastFavMoviesindices.push(index); }
 });
 
-var goodmovies = ["La Dolce Vita","Seven Samurai","The Godfather"]
+var goodMovies = ["Da Vinci Code","James Bond","The Conjuring"]
 
 leastFavMoviesindices.forEach((index) => {
-    allMovies[index] = goodmovies.shift();
+    allMovies[index] = goodMovies.shift();
 });
 
 for (var index = 0; index < allMovies.length; index++) {
@@ -172,7 +172,7 @@ window.console.log("\n");
 window.console.log("**Step 13**");
 
 
-var movies3 = [["Harry Potter", 1], ["Dark", 2], ["Lord of the rings", 3], ["The Good Place", 4], ["Tarzan", 5]];
+var movies3 = [["Soul", 1], ["Avengers", 2], ["Dead Poet's Society", 3], ["Harry Potter", 4], ["Storks", 5]];
 
 var movieNames = movies3.filter(function(movie) {
   return typeof movie[0] === "string";
@@ -223,11 +223,11 @@ window.console.log("**Step 16**");
 
 
 
-var RandomNumber = function(val) {
+var randomNum = function(val) {
   return val[Math.floor(Math.random() * val.length)];
 };
-var nums = [1, 20, 34, 43, 52, 68, 75, 89, 90, 101];
-window.console.log(RandomNumber(nums));
+var nums = [11, 22, 33, 44, 55, 66, 77, 88, 99, 100];
+window.console.log(randomNum(nums));
 
 //Step 17
 
@@ -237,21 +237,9 @@ window.console.log("**Step 17**");
 
 
 
-var LargestNumber = function(val){
+var largestNum = function(val){
     return Math.max(...val);
 }
 
 var arr = [789 , 193, 200 , 67 , 88900 ,00 , 76 ];
-window.console.log(LargestNumber(arr));
-
-
-
-
-
-
-
-
-
-
-
-
+window.console.log(largestNum(arr));
