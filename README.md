@@ -2,5 +2,4 @@
 This lab is to practice Arrays.
 
 **Red ID 828119962**
-
 **HARIKA DITTAKAVI**
